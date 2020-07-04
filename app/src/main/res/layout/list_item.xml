@@ -11,12 +11,14 @@
         android:id="@+id/song_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="one"/>
+        android:textSize="20sp"
+        tools:text="Night Witches"/>
 
     <TextView
         android:id="@+id/artist_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="lutti"/>
+        android:textSize="16sp"
+        tools:text="Sabbaton"/>
 
 </LinearLayout>
