@@ -7,7 +7,7 @@
     <color name="primary_dark_color">#2F1D1A</color>
 
     <!-- Background color for app -->
-    <color name="dark_grey">#25282e</color>
+    <color name="dark_grey_background">#25282e</color>
 
     <!-- Background color for the numbers category -->
     <color name="category_songs">#25282e</color>
