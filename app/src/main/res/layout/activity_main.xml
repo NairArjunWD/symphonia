@@ -59,21 +59,21 @@
         android:orientation="horizontal">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="Play"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:text="▶"
             android:onClick="play"/>
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="Pause"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:text="❚❚"
             android:onClick="pause"/>
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="Stop"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:text="■"
             android:onClick="stop"/>
 
     </LinearLayout>

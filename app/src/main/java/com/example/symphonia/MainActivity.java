@@ -96,11 +96,13 @@ public class MainActivity extends AppCompatActivity {
             });
         }
         player.start();
+        Toast.makeText(this, "Song playing", Toast.LENGTH_SHORT).show();
     }
 
     public void pause(View view) {
         if (player != null) {
             player.pause();
+            Toast.makeText(this, "Song paused", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -112,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
         if (player != null) {
             player.release();
             player = null;
-            Toast.makeText(this, "MediaPlayer released", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Song stopped", Toast.LENGTH_SHORT).show();
         }
     }
 
