@@ -36,53 +36,53 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        // Find the View that shows the artists category
-//        TextView artists = (TextView) findViewById(R.id.artists);
-//
-//        // Set a click listener on that View
-//        artists.setOnClickListener(new OnClickListener() {
-//            // The code in this method will be executed when the family category is clicked on.
-//            @Override
-//            public void onClick(View view) {
-//                // Create a new intent to open the {@link ArtistsActivity}
-//                Intent artistsIntent = new Intent(MainActivity.this, ArtistsActivity.class);
-//
-//                // Start the new activity
-//                startActivity(artistsIntent);
-//            }
-//        });
-//
-//        // Find the View that shows the albums category
-//        TextView albums = (TextView) findViewById(R.id.albums);
-//
-//        // Set a click listener on that View
-//        albums.setOnClickListener(new OnClickListener() {
-//            // The code in this method will be executed when the colors category is clicked on.
-//            @Override
-//            public void onClick(View view) {
-//                // Create a new intent to open the {@link AlbumsActivity}
-//                Intent albumsIntent = new Intent(MainActivity.this, AlbumsActivity.class);
-//
-//                // Start the new activity
-//                startActivity(albumsIntent);
-//            }
-//        });
-//
-//        // Find the View that shows the playlists category
-//        TextView playlists = (TextView) findViewById(R.id.playlists);
-//
-//        // Set a click listener on that View
-//        playlists.setOnClickListener(new OnClickListener() {
-//            // The code in this method will be executed when the phrases category is clicked on.
-//            @Override
-//            public void onClick(View view) {
-//                // Create a new intent to open the {@link PlaylistsActivity}
-//                Intent playlistsIntent = new Intent(MainActivity.this, PlaylistsActivity.class);
-//
-//                // Start the new activity
-//                startActivity(playlistsIntent);
-//            }
-//        });
+        // Find the View that shows the artists category
+        TextView artists = (TextView) findViewById(R.id.artists);
+
+        // Set a click listener on that View
+        artists.setOnClickListener(new OnClickListener() {
+            // The code in this method will be executed when the family category is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link ArtistsActivity}
+                Intent artistsIntent = new Intent(MainActivity.this, ArtistsActivity.class);
+
+                // Start the new activity
+                startActivity(artistsIntent);
+            }
+        });
+
+        // Find the View that shows the albums category
+        TextView albums = (TextView) findViewById(R.id.albums);
+
+        // Set a click listener on that View
+        albums.setOnClickListener(new OnClickListener() {
+            // The code in this method will be executed when the colors category is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link AlbumsActivity}
+                Intent albumsIntent = new Intent(MainActivity.this, AlbumsActivity.class);
+
+                // Start the new activity
+                startActivity(albumsIntent);
+            }
+        });
+
+        // Find the View that shows the playlists category
+        TextView playlists = (TextView) findViewById(R.id.playlists);
+
+        // Set a click listener on that View
+        playlists.setOnClickListener(new OnClickListener() {
+            // The code in this method will be executed when the phrases category is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link PlaylistsActivity}
+                Intent playlistsIntent = new Intent(MainActivity.this, PlaylistsActivity.class);
+
+                // Start the new activity
+                startActivity(playlistsIntent);
+            }
+        });
     }
 
     public void play(View view) {

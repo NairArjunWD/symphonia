@@ -24,6 +24,30 @@
                 android:name="android.support.PARENT_PARENT"
                 android:value=".MainActivity" />
         </activity>
+        <activity
+            android:name=".ArtistsActivity"
+            android:label="Artists"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_PARENT"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".AlbumsActivity"
+            android:label="Albums"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_PARENT"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".PlaylistsActivity"
+            android:label="Playlists"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_PARENT"
+                android:value=".MainActivity" />
+        </activity>
     </application>
 
 </manifest>
