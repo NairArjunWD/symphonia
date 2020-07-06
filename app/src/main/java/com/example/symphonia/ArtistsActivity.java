@@ -19,16 +19,14 @@ public class ArtistsActivity extends  AppCompatActivity{
         ArrayList<Song> songs = new ArrayList<Song>();
 
 //        words.add("one");
-        songs.add(new Song("Night Witches", "Sabaton"));
-        songs.add(new Song("Devil Dogs", "Sabaton"));
-        songs.add(new Song("Hope", "Namie Amuro"));
-        songs.add(new Song("Blessed", "Martina McBride"));
-        songs.add(new Song("Singing to the Song of Life", "Mandy Moore"));
-        songs.add(new Song("Baba Yetu", "Christopher Tin"));
-        songs.add(new Song("Sogno di Volare", "Christopher Tin"));
-        songs.add(new Song("Battle Scars (acoustic ver.)", "Paradise Fears"));
-        songs.add(new Song( "POP/STARS", "K/DA"));
-        songs.add(new Song("You Say Run", "Yuki Hayashi"));
+        songs.add(new Song("Sabaton", "2 Songs"));
+        songs.add(new Song("Namie Amuro", "1 Song"));
+        songs.add(new Song("Martina McBride", "1 Song"));
+        songs.add(new Song("Mandy Moore", "1 Song"));
+        songs.add(new Song("Christopher Tin", "2 Songs"));
+        songs.add(new Song("Paradise Fears", "1 Song"));
+        songs.add(new Song( "K/DA", "1 Song"));
+        songs.add(new Song("Yuki Hayashi", "1 Song"));
 
         SongAdapter adapter = new SongAdapter(this, songs);
 

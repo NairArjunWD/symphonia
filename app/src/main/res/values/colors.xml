@@ -10,16 +10,16 @@
     <color name="dark_grey_background">#25282e</color>
 
     <!-- Background color for the numbers category -->
-    <color name="category_songs">#25282e</color>
+    <color name="category_songs">#801f4dab</color>
 
     <!-- Background color for the family members category -->
-    <color name="category_artists">#379237</color>
+    <color name="category_artists">#801f4dab</color>
 
     <!-- Background color for the colors category -->
-    <color name="category_albums">#8800A0</color>
+    <color name="category_albums">#801f4dab</color>
 
     <!-- Background color for the colors category -->
-    <color name="category_playlists">#8700C0</color>
+    <color name="category_playlists">#801f4dab</color>
 
     <!-- Background color for the phrases category -->
     <color name="category_shuffle">#16AFCA</color>
