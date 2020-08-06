@@ -17,3 +17,6 @@ The app only plays one song due to my inexperience with getting it to work by sc
 ### To Do
 
 Make this into an actual music player
+ - Scan phone for media files
+ - Display name of song currently playing with artist name
+ - Now playing thumbnail changes to show album cover or any picture the person chose
